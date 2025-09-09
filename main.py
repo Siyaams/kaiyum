@@ -1,7 +1,7 @@
 import time
 import requests
 
-url = "https://zihadbd.shop/clientbot11.php"
+url = "https://zihadbd.shop/clientbot21.php"
 
 while True:
     try:
@@ -9,4 +9,4 @@ while True:
         print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] [jimkar bot] {url} → {response.status_code}")
     except Exception as e:
         print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] [jimkar bot] Error: {e}")
-    time.sleep(5)
+    time.sleep(4)
